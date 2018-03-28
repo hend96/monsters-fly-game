@@ -1,80 +1,47 @@
 fileFormatVersion: 2
-guid: caf9cb84491ed324cba9a030e997a9fd
-timeCreated: 1522271216
+guid: 408ebf10214e4144bbb7983f0b98a040
+timeCreated: 1522271080
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: group_0
-    100002: group_1
-    100004: group_2
-    100006: group_3
-    100008: group_4
-    100010: group_5
-    100012: group_6
-    100014: group_7
-    100016: ID28
-    100018: ID34
-    100020: ID48
-    100022: ID54
-    100024: ID60
-    100026: ID66
-    100028: skp_camera_Last_Saved_SketchUp_View
-    100030: //RootNode
+    100002: ID14
+    100004: ID20
+    100006: ID26
+    100008: //RootNode
+    100010: skp_camera_Last_Saved_SketchUp_View
     400000: group_0
-    400002: group_1
-    400004: group_2
-    400006: group_3
-    400008: group_4
-    400010: group_5
-    400012: group_6
-    400014: group_7
-    400016: ID28
-    400018: ID34
-    400020: ID48
-    400022: ID54
-    400024: ID60
-    400026: ID66
-    400028: skp_camera_Last_Saved_SketchUp_View
-    400030: //RootNode
+    400002: ID14
+    400004: ID20
+    400006: ID26
+    400008: //RootNode
+    400010: skp_camera_Last_Saved_SketchUp_View
     2000000: skp_camera_Last_Saved_SketchUp_View
-    2300000: group_2
-    2300002: group_3
-    2300004: group_4
-    2300006: group_5
-    2300008: group_6
-    2300010: group_7
-    2300012: ID28
-    2300014: ID48
-    2300016: ID54
-    2300018: ID60
-    3300000: group_2
-    3300002: group_3
-    3300004: group_4
-    3300006: group_5
-    3300008: group_6
-    3300010: group_7
-    3300012: ID28
-    3300014: ID48
-    3300016: ID54
-    3300018: ID60
-    4300000: group_2
-    4300002: ID28
-    4300004: group_3
-    4300006: group_4
-    4300008: group_5
-    4300010: group_6
-    4300012: ID48
-    4300014: ID54
-    4300016: ID60
-    4300018: group_7
+    2300000: group_0
+    2300002: ID14
+    2300004: ID20
+    2300006: ID26
+    3300000: group_0
+    3300002: ID14
+    3300004: ID20
+    3300006: ID26
+    4300000: group_0
+    4300002: ID14
+    4300004: ID20
+    4300006: ID26
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Color_F01
-    second: {fileID: 2100000, guid: 2957044e4d21ec24999723571d52fc72, type: 2}
+      name: material_2
+    second: {fileID: 2100000, guid: a70a9b9dfaa0e6345bee1453ce21749f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_3
+    second: {fileID: 2100000, guid: 208240312a8791345855f31956cab711, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
