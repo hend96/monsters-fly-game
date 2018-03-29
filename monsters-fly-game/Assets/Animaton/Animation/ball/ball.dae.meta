@@ -1,35 +1,59 @@
 fileFormatVersion: 2
-guid: 28a1da98d98590742bdc0706d263e738
-timeCreated: 1522321390
+guid: 1c561a3401fe138439006d330482ef51
+timeCreated: 1522269606
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: ID11
-    100002: ID17
-    100004: //RootNode
-    100006: skp_camera_Last_Saved_SketchUp_View
-    400000: ID11
-    400002: ID17
-    400004: //RootNode
-    400006: skp_camera_Last_Saved_SketchUp_View
+    100000: //RootNode
+    100002: ID13
+    100004: ID21
+    100006: ID27
+    100008: ID35
+    100010: instance_0
+    100012: Pixar_Ball
+    100014: skp_camera_Last_Saved_SketchUp_View
+    400000: //RootNode
+    400002: ID13
+    400004: ID21
+    400006: ID27
+    400008: ID35
+    400010: instance_0
+    400012: Pixar_Ball
+    400014: skp_camera_Last_Saved_SketchUp_View
     2000000: skp_camera_Last_Saved_SketchUp_View
-    2300000: ID11
-    2300002: ID17
-    2300004: //RootNode
-    3300000: ID11
-    3300002: ID17
-    3300004: //RootNode
-    4300000: SketchUp
-    4300002: ID11
-    4300004: ID17
+    2300000: ID13
+    2300002: ID21
+    2300004: ID27
+    2300006: ID35
+    2300008: Pixar_Ball
+    3300000: ID13
+    3300002: ID21
+    3300004: ID27
+    3300006: ID35
+    3300008: Pixar_Ball
+    4300000: Pixar_Ball
+    4300002: ID13
+    4300004: ID21
+    4300006: ID27
+    4300008: ID35
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Color_A06
-    second: {fileID: 2100000, guid: 8a64b9be0c29d984597d9bf19cb31b30, type: 2}
+      name: __DeepSkyBlue_
+    second: {fileID: 2100000, guid: d9e439cb2e9856948955b6039a7ddd72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Red_
+    second: {fileID: 2100000, guid: 73c0be96830e98c4cba512c4e023f495, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __Yellow_
+    second: {fileID: 2100000, guid: 762eddb4032cc984f8b2a913573c0f4d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -72,8 +96,6 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
