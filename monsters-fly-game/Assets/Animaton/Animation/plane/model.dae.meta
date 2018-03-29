@@ -1,47 +1,74 @@
 fileFormatVersion: 2
-guid: 408ebf10214e4144bbb7983f0b98a040
-timeCreated: 1522271080
+guid: 20dee2ca9e8dcf44d98726a2beafd17d
+timeCreated: 1522325136
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: group_0
-    100002: ID14
-    100004: ID20
-    100006: ID26
-    100008: //RootNode
-    100010: skp_camera_Last_Saved_SketchUp_View
-    400000: group_0
-    400002: ID14
-    400004: ID20
-    400006: ID26
-    400008: //RootNode
-    400010: skp_camera_Last_Saved_SketchUp_View
+    100000: ID55
+    100002: ID59
+    100004: instance_0
+    100006: instance_1
+    100008: instance_2
+    100010: instance_3
+    100012: instance_4
+    100014: instance_5
+    100016: //RootNode
+    100018: SimpleDome01
+    100020: SimpleSphere02
+    100022: SimpleSphere02 1
+    100024: SimpleSphere02 2
+    100026: SimpleSphere02 3
+    100028: SimpleSphere02 4
+    100030: skp_camera_Last_Saved_SketchUp_View
+    400000: ID55
+    400002: ID59
+    400004: instance_0
+    400006: instance_1
+    400008: instance_2
+    400010: instance_3
+    400012: instance_4
+    400014: instance_5
+    400016: //RootNode
+    400018: SimpleDome01
+    400020: SimpleSphere02
+    400022: SimpleSphere02 1
+    400024: SimpleSphere02 2
+    400026: SimpleSphere02 3
+    400028: SimpleSphere02 4
+    400030: skp_camera_Last_Saved_SketchUp_View
     2000000: skp_camera_Last_Saved_SketchUp_View
-    2300000: group_0
-    2300002: ID14
-    2300004: ID20
-    2300006: ID26
-    3300000: group_0
-    3300002: ID14
-    3300004: ID20
-    3300006: ID26
-    4300000: group_0
-    4300002: ID14
-    4300004: ID20
-    4300006: ID26
+    2300000: SimpleSphere02
+    2300002: SimpleSphere02 1
+    2300004: SimpleSphere02 2
+    2300006: SimpleSphere02 3
+    2300008: SimpleSphere02 4
+    3300000: SimpleSphere02
+    3300002: SimpleSphere02 1
+    3300004: SimpleSphere02 2
+    3300006: SimpleSphere02 3
+    3300008: SimpleSphere02 4
+    4300000: SimpleSphere02
+    4300002: SimpleSphere02
+    4300004: SimpleSphere02
+    4300006: SimpleSphere02
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: material_2
-    second: {fileID: 2100000, guid: a70a9b9dfaa0e6345bee1453ce21749f, type: 2}
+      name: Color_009
+    second: {fileID: 2100000, guid: 016b743cea8853d4c85ef622688bb972, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: material_3
-    second: {fileID: 2100000, guid: 208240312a8791345855f31956cab711, type: 2}
+      name: Color_A12
+    second: {fileID: 2100000, guid: 5e304d08693fdd44f8e3c13a0b000ed9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Tinted
+    second: {fileID: 2100000, guid: 3de4b37bb847479418bc12fd3c700426, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
