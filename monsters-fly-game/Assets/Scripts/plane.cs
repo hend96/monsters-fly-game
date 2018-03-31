@@ -31,25 +31,34 @@ public class plane : MonoBehaviour {
         Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Perfabs/point.prefab", typeof(GameObject));
         GameObject clone = Instantiate(prefab, v, Quaternion.identity) as GameObject;
         clone.AddComponent<Rigidbody>();
-        makeChaneg = true;
+        makeChange = true;
       //  clone.transform.position = new Vector3(x, y, z);
     }
 
 	// Update is called once per frame
 	void Update () {
-        //&& transform.position.x < rBound.x
-        if (Input.GetKey("right")  )
+
+        //
+        if (Input.GetKey("right") && transform.position.x < rBound.x)
         {
             transform.Translate(right*speed.value);
             
-            CreateBubble(transform.position.x +40, transform.position.y-3, transform.position.z);
+            CreateBubble(transform.position.x +10, transform.position.y-3, transform.position.z);
         }
 
         if (Input.GetKey("left") && transform.position.x > lBound.x)
         {
             transform.Translate(left*speed.value);
-            CreateBubble(transform.position.x + 40, transform.position.y - 3, transform.position.z);
+            CreateBubble(transform.position.x + 10, transform.position.y - 3, transform.position.z);
         }
 
+        if (Input.GetKey("up"))
+        {
+            transform.Translate(0,-1*speed.value,0);
+        }
+         if (Input.GetKey("down"))
+        {
+            transform.Translate(0,1*speed.value,0);
+        }
 	}
-}
+	}
