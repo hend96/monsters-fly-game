@@ -38,6 +38,12 @@ public class plane : MonoBehaviour {
       //  clone.transform.position = new Vector3(x, y, z);
     }
 
+    void createWall(float x, float y, float z)
+    {
+        Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Perfabs/wall.prefab", typeof(GameObject));
+        Instantiate(prefab, v, Quaternion.identity);
+    }
+
 	// Update is called once per frame
 	void Update () {
 

@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 95093163666414170}
   - component: {fileID: 54380955253299756}
   - component: {fileID: 135134051575083008}
+  - component: {fileID: 114643463320795460}
   m_Layer: 0
   m_Name: heart
   m_TagString: Untagged
@@ -326,6 +327,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114643463320795460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1215421930268834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2923157223e444448913024d7166ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plane: {fileID: 0}
+  myHeart: {fileID: 0}
 --- !u!135 &135134051575083008
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -336,5 +350,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 82.146774
-  m_Center: {x: -76.0595, y: 42.314377, z: 82.146774}
+  m_Radius: 100
+  m_Center: {x: -90, y: 50, z: 90}
