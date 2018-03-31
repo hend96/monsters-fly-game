@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class speed : MonoBehaviour {
 
-    static public int value=5;
+    static public int value=3;
 
 
     static public void increase()

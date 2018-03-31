@@ -16,9 +16,13 @@ public class plane : MonoBehaviour {
     Vector3 right = new Vector3(1, 0, 0);
     Vector3 left = new Vector3(-1, 0, 0);
 
+    bool makeChange = false;
+
+
 	// Use this for initialization
 	void Start () {
         yourPoint = transform.position;
+        makeChange = false;
 	}
 
     void CreateBubble(float x,float y,float z)
@@ -27,21 +31,24 @@ public class plane : MonoBehaviour {
         Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Perfabs/point.prefab", typeof(GameObject));
         GameObject clone = Instantiate(prefab, v, Quaternion.identity) as GameObject;
         clone.AddComponent<Rigidbody>();
+        makeChaneg = true;
       //  clone.transform.position = new Vector3(x, y, z);
     }
 
 	// Update is called once per frame
 	void Update () {
         //&& transform.position.x < rBound.x
-        if (Input.GetKey("right") )
+        if (Input.GetKey("right")  )
         {
             transform.Translate(right*speed.value);
-            CreateBubble(transform.position.x +40, transform.position.y+20, transform.position.z);
+            
+            CreateBubble(transform.position.x +40, transform.position.y-3, transform.position.z);
         }
 
         if (Input.GetKey("left") && transform.position.x > lBound.x)
         {
             transform.Translate(left*speed.value);
+            CreateBubble(transform.position.x + 40, transform.position.y - 3, transform.position.z);
         }
 
 	}
