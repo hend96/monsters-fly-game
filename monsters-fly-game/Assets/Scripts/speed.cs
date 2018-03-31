@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class heart : MonoBehaviour {
+public class speed : MonoBehaviour {
 
-    static public int value = 3 ;
+    static public int value=5;
+
 
     static public void increase()
     {
@@ -14,6 +15,7 @@ public class heart : MonoBehaviour {
     {
         value--;
     }
+
 	// Use this for initialization
 	void Start () {
 		

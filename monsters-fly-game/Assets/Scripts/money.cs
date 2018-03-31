@@ -2,18 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class heart : MonoBehaviour {
+public class money : MonoBehaviour {
 
-    static public int value = 3 ;
+    static float value = 0f;
 
-    static public void increase()
-    {
-        value++;
+    public static void increase(){
+        value += 10;
     }
-    static public void decrease()
-    {
-        value--;
-    }
+
 	// Use this for initialization
 	void Start () {
 		

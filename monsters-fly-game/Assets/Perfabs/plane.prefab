@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 4705195922443628}
   - component: {fileID: 33255421640527964}
   - component: {fileID: 23207480538090982}
+  - component: {fileID: 135219256971002728}
   m_Layer: 0
   m_Name: SimpleSphere02 1
   m_TagString: Untagged
@@ -312,8 +313,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1144263315604112}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -194, y: 21.822523, z: -174.732}
-  m_LocalScale: {x: 0.07518196, y: 0.07518194, z: 0.07518194}
+  m_LocalPosition: {x: 3, y: 15, z: 1}
+  m_LocalScale: {x: 0.017303765, y: 0.01730376, z: 0.01730376}
   m_Children:
   - {fileID: 4844248894802520}
   - {fileID: 4203958940066766}
@@ -765,7 +766,7 @@ Animator:
   m_GameObject: {fileID: 1144263315604112}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 20dee2ca9e8dcf44d98726a2beafd17d, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92ea0eec6770ad14c8596644ddfd27ee, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -773,6 +774,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!135 &135219256971002728
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1166947162221268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 63.087765
+  m_Center: {x: -0.000025749207, y: -8.9653084e-13, z: 63.087643}
 --- !u!135 &135471252683279552
 SphereCollider:
   m_ObjectHideFlags: 1
