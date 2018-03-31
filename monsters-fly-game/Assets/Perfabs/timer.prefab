@@ -639,4 +639,4 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.093425035
-  m_Center: {x: -5.9954844, y: 0, z: 15.379673}
+  m_Center: {x: -5.9954844, y: 0.000015258789, z: 15.379673}
