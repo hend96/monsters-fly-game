@@ -40,6 +40,7 @@ public class plane : MonoBehaviour {
 
     void createWall(float x, float y, float z)
     {
+        Vector3 v = new Vector3(x, y, z);
         Object prefab = AssetDatabase.LoadAssetAtPath("Assets/Perfabs/wall.prefab", typeof(GameObject));
         Instantiate(prefab, v, Quaternion.identity);
     }

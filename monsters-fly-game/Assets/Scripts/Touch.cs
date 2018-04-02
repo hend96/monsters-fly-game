@@ -4,12 +4,26 @@ using UnityEngine;
 
 public class Touch : MonoBehaviour {
 
-    public void OnTriggerEnter(Collision collision)
+    public GameObject myHeart;
+    public GameObject myPlane;
+
+   /* public void OnTriggerEnter(Collision collision)
     {
-        if (collision.gameObject.name == "plane")
+        if (collision.gameObject.tag == "plane")
         {
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
+            myHeart.SetActive(false);
         }
     }
+    */
 
+    public void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "plane")
+        {
+            // this.GetComponent<SphereCollider>().enabled = false;
+            myHeart.SetActive(false);
+            heart.increase();
+        }
+    }
 }

@@ -10,6 +10,7 @@ public class money : MonoBehaviour {
         value += 10;
     }
 
+   
 	// Use this for initialization
 	void Start () {
 		
