@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2923157223e444448913024d7166ad0
+timeCreated: 1522522561
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - plane: {instanceID: 0}
+  - myHeart: {fileID: 1215421930268834, guid: 40fec8fe7ff2cbb43a5ea6c07d789c58, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
