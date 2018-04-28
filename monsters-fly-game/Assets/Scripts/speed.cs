@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class speed : MonoBehaviour {
 
-    static public int value=3;
+    static public int value=2;
 
 
     static public void increase()
     {
         value++;
     }
+
     static public void decrease()
     {
         value--;
