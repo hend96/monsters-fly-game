@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class money : MonoBehaviour {
 
-    static float value = 0f;
+    public static float value = 0f;
 
     public static void increase(){
         value += 10;
